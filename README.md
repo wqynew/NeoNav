@@ -23,12 +23,12 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
       <td align="center">Target: Television</td>
     </tr>
     <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s3.png'><img src='https://github.com/wqynew/NeoNav/raw/master/image/t3.png'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
     </tr>
     <tr>
-      <td align="center">Target: Microwave</td>
-      <td align="center">Target: Couch</td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
     </tr>
     <tr>
       <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310007440101_001310000150101.gif'></td>
