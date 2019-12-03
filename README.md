@@ -7,12 +7,12 @@ This is the implementation of our AAAI 2020 paper `NeoNav: Improving the General
 * The environment: Cuda 10.0, Python 3.6.4, PyTorch 1.0.1 
 * Please download "depth_imgs.npy" file from the [AVD_Minimal](https://storage.googleapis.com/active-vision-dataset/AVD_Minimal.zip) and put the file in the train folder. 
 * Please download our training data [HERE](https://drive.google.com/open?id=1Avl5CNn-V4Fpfhn0nE9siJMkYZRczKmN).
-* Our trained models can be download from [HERE](https://drive.google.com/open?id=182D_0hP7orpJKyDDLlUyV4URwT3Rt0Ux). If you plan to train your own navigation model from scratch, some suggestions are provided:
+* Our trained model can be downloaded from [HERE](https://drive.google.com/open?id=182D_0hP7orpJKyDDLlUyV4URwT3Rt0Ux). If you plan to train your own navigation model from scratch, some suggestions are provided:
     * Pre-train the model by using "python3 ttrain.py" and terminate the training when the action prediction accuracy approaches 70%.
     * Use "python3 train.py" to train the NeoNav model.
     
 ### Testing
-* To evaluate our model, please run "python3 evaluate.py" or "python3 evaluete_with_stop.py"
+* To evaluate our model, please run "python3 ./test/evaluate.py" or "python3 ./test/evaluete_with_stop.py"
 
 ## Results
 <div align="center">
