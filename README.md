@@ -51,7 +51,14 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
 </div>
 
 ## Contact
-
+To ask questions or report issues please open an issue on the [issues tracker](https://github.com/wqynew/NeoNav/issues).
 ## Citation
+If you use NeoNav in your research, please cite the paper:
+```
+@article{wuneonav,
+  title={NeoNav: Improving the Generalization of Visual Navigation via Generating Next Expected Observations},
+  author={Wu, Qiaoyun and Manocha, Dinesh and Wang, Jun and Xu, Kai}
+}
+```
 
 
