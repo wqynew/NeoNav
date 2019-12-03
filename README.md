@@ -15,57 +15,32 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
 * To evaluate our model, please run "python3 evaluate.py" or "python3 evaluete_with_stop.py"
 
 ## Results
-<table>
-    <thead>
-        <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
-    </tbody>
-</table>
-
 <div align="center">
   <table style="width:100%" border="0">
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-            <th>Layer 3</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Start</th>
+            <th>End</th>
         </tr>
     </thead>
     <tbody>
        <tr>
-         <td align="center" colspan=2>Target: Fridge</td>
-         <td align="center" colspan=2>Target: Television</td>
-       </tr>
-       <tr>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s1.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t1.png'></td>
          <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s3.png'></td>
          <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t3.png'></td>
-         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'></td>
-         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
        </tr>
        <tr>
          <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
          <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
+       </tr>
+       <tr>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s2.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t2.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
        </tr>
        <tr>
          <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310007440101_001310000150101.gif'></td>
