@@ -23,8 +23,10 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
       <td align="center">Target: Television</td>
     </tr>
     <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s3.png'><img src='https://github.com/wqynew/NeoNav/raw/master/image/t3.png'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s3.png'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t3.png'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
     </tr>
     <tr>
       <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
