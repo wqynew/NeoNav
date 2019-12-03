@@ -42,32 +42,36 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
     </tbody>
 </table>
 
-| Start | End | Start | end |
-| --- | --- | --- | --- |
-|![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)|![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)|![](https://github.com/wqynew/NeoNav/raw/master/image/s4.png)|![](https://github.com/wqynew/NeoNav/raw/master/image/t4.png)
-|![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)|![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)
-| git diff | Show file differences that haven't been staged 
-
 <div align="center">
   <table style="width:100%" border="0">
-    <tr>
-      <td align="center">Target: Fridge</td>
-      <td align="center">Target: Television</td>
-    </tr>
-    <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s3.png'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t3.png'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
-    </tr>
-    <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
-    </tr>
-    <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310007440101_001310000150101.gif'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_016_1_001610000060101_001610004220101.gif'></td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Layer 1</th>
+            <th>Layer 2</th>
+            <th>Layer 3</th>
+            <th>Layer 3</th>
+        </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <td align="center" colspan=2>Target: Fridge</td>
+         <td align="center" colspan=2>Target: Television</td>
+       </tr>
+       <tr>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s3.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t3.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/s4.png'></td>
+         <td align="center"><img src='https://github.com/wqynew/NeoNav/raw/master/image/t4.png'></td>
+       </tr>
+       <tr>
+         <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
+         <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
+       </tr>
+       <tr>
+         <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310007440101_001310000150101.gif'></td>
+         <td align="center" colspan=2><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_016_1_001610000060101_001610004220101.gif'></td>
+       </tr>
+    </tbody>
   </table>
 </div>
 
