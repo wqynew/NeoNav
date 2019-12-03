@@ -17,10 +17,10 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
 ## Results
 
 | Start | End | Start | end |
-| --- | --- |
-|`![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/s4.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t4.png)`|
-|`![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)`|
-| git diff | Show file differences that haven't been staged |
+| --- | --- | --- | --- |
+|`![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/s4.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t4.png)`
+|`![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)`
+| git diff | Show file differences that haven't been staged 
 
 <div align="center">
   <table style="width:100%" border="0">
