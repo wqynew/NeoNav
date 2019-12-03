@@ -19,22 +19,26 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
 <div align="center">
   <table style="width:100%" border="0">
     <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
-    </tr>
-    <tr>
       <td align="center">Target: Fridge</td>
       <td align="center">Target: Television</td>
     </tr>
     <tr>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310007440101_001310000150101.gif'></td>
-      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_016_1_001610000060101_001610004220101.gif'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_011_1_001110011030101_001110005720101.gif'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310002970101_001310004330101.gif'></td>
     </tr>
     <tr>
       <td align="center">Target: Microwave</td>
       <td align="center">Target: Couch</td>
     </tr>
+    <tr>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_013_1_001310007440101_001310000150101.gif'></td>
+      <td align="center"><img src='https://github.com/wqynew/NeoNav/blob/master/image/Gif-Home_016_1_001610000060101_001610004220101.gif'></td>
+    </tr>
   </table>
 </div>
+
+## Contact
+
+## Citation
 
 
