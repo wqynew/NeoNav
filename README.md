@@ -4,7 +4,7 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
 ![](https://github.com/wqynew/NeoNav/raw/master/image/overview.png)
 ## Implementation
 ### Training
-* The environment: cuda 10.0, Python 3.6.4, pytorch 1.0.1 
+* The environment: Cuda 10.0, Python 3.6.4, PyTorch 1.0.1 
 * Please download "depth_imgs.npy" file from the [AVD_Minimal](https://storage.googleapis.com/active-vision-dataset/AVD_Minimal.zip) and put the file in the train folder. 
 * Please download our training data [HERE](https://drive.google.com/open?id=1Avl5CNn-V4Fpfhn0nE9siJMkYZRczKmN).
 * Our trained models can be download from [HERE](https://drive.google.com/open?id=182D_0hP7orpJKyDDLlUyV4URwT3Rt0Ux). If you plan to train your own navigation model from scratch, some suggestions are provided:
@@ -15,6 +15,12 @@ This is the implementation of our AAAI 2020 paper "NeoNav: Improving the General
 * To evaluate our model, please run "python3 evaluate.py" or "python3 evaluete_with_stop.py"
 
 ## Results
+
+| Start | End | Start | end |
+| --- | --- |
+|`![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/s4.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t4.png)`|
+|`![](https://github.com/wqynew/NeoNav/raw/master/image/s3.png)`|`![](https://github.com/wqynew/NeoNav/raw/master/image/t3.png)`|
+| git diff | Show file differences that haven't been staged |
 
 <div align="center">
   <table style="width:100%" border="0">
