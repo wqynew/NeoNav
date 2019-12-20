@@ -29,7 +29,7 @@ with open ('updateevafeaturedes', 'rb') as ft:
     wholeData=pickle.load(ft)
 #=====================================================================================================
 net = network.create_model(pretrained=False)
-best_path = os.path.join(CHECK_DIR, 'best_53.ckpt') #
+best_path = os.path.join(CHECK_DIR, 'best.ckpt') #
 if os.path.isfile(best_path):      
     checkpoint = torch.load(best_path)
     global_t=checkpoint['global_t']
