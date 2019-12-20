@@ -29,6 +29,9 @@ register(id='active-vision-env-v0',entry_point='cognitive_planning.envs.active_v
 SUPPORTED_ACTIONS=['right', 'rotate_cw', 'rotate_ccw', 'forward', 'left', 'backward', 'stop']
 _Graph=collections.namedtuple('_Graph',['graph','id_to_index','index_to_id'])
 
+with open ('./jsonfile/imagelist', 'rb') as ft:
+    imagelist=pickle.load(ft)
+
 def _get_image_folder(root,world):
     return os.path.join(root, world,'jpg_rgb')
 
@@ -95,12 +98,12 @@ ACTIONS=['right', 'rotate_cw', 'rotate_ccw', 'forward', 'left', 'backward', 'sto
 class ActiveVisionDatasetEnv():
     """simulates the environment from ActiveVisionDataset."""
     cached_data=None
-    def __init__(self,world,goal_image_id=None, dataset_root='/scratch1/dataset/ActiveVisionDataset/', actions=ACTIONS):
+    def __init__(self,world,goal_image_id=None, dataset_root='./jsonfile/', actions=ACTIONS):
         self._dataset_root=dataset_root
         self._actions=ACTIONS
         self._cur_world=world
         self._world_id_dict={}
-        self._world_id_dict[self._cur_world]=_get_image_list(self._dataset_root,self._cur_world)
+        self._world_id_dict[self._cur_world]=imagelist[self._cur_world]
 
         self._all_graph = {}
         with open(_get_json_path(self._dataset_root, self._cur_world), 'r') as f:

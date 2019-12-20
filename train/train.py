@@ -23,14 +23,14 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 BATCH_SIZE=64
 CHECKPOINT=True
 CHECK_DIR='./checkpoint/'
-env =scene_loader.ActiveVisionDatasetEnv(world='Home_011_1')
+env =scene_loader.ActiveVisionDatasetEnv(world='Home_001_1')
 
 with open ('./data/round_traindata', 'rb') as ft:
     data=pickle.load(ft)
 print("data:",len(data))
 
 
-with open ('./data/round_valdata', 'rb') as ft:
+with open ('./data/round_testdata', 'rb') as ft:
     test_data=pickle.load(ft)
 
 def getImagedes(world,startid):
@@ -84,8 +84,6 @@ SPL=[]
 SR=[]
 all_losses=[]
 per_acc=[]
-if not os.path.exists('out5/'):
-    os.makedirs('out5/')
 for epoch in range(1500):  
     print("ok!!")
     running_loss = 0.0
